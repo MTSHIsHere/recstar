@@ -52,7 +52,7 @@ jobs:
         run: |
           $VERSION="${{ github.ref_name }}"
           echo $VERSION
-          Compress-Archive ./desktopApp/build/compose/binaries/main/app/RecStar/* ./recstar-$VERSION-win64.zip
+          Compress-Archive ./desktopApp/build/compose/binaries/main/app/RecStar/* ./recstar-$VERSION-win32.zip
 
       - name: Release
         uses: softprops/action-gh-release@v1
