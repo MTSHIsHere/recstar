@@ -1,1 +1,1 @@
-Not original version, created to support x32
+Non-original version, created to support x32
